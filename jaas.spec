@@ -1,5 +1,5 @@
 %define		ver		1.0_01
-%define 	_ver		1_0_01
+%define 	_ver		%(echo %{ver} | tr . _)
 
 Summary:	Java(TM) Authentication and Authorization Service
 Name:		jaas
