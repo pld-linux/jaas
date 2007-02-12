@@ -2,7 +2,7 @@
 %define 	_ver		%(echo %{ver} | tr . _)
 
 Summary:	Java(TM) Authentication and Authorization Service
-Summary(pl):	JAAS - us≥uga uwierzytelniania i autoryzacji dla Javy
+Summary(pl.UTF-8):   JAAS - us≈Çuga uwierzytelniania i autoryzacji dla Javy
 Name:		jaas
 Version:	%{ver}
 Release:	0.1
@@ -29,16 +29,16 @@ user-based authorization.
 This optional package is provided for Java 1.3 and 1.3.1. It has been
 integrated in Java 1.4.
 
-%description -l pl
+%description -l pl.UTF-8
 JAAS (Java(TM) Authentication and Authorization Service) to pakiet
-Javy umoøliwiaj±cy us≥ugom na uwierzytelnianie oraz narzucanie
-kontroli dostÍpu w zaleøno∂ci od uøytkownika. Pakiet jest
-implementacj± javowej wersji standardowego szkieletu PAM (Pluggable
-Authentication Module) i obs≥uguje autoryzacj± w oparciu o
-uøytkownikÛw.
+Javy umo≈ºliwiajƒÖcy us≈Çugom na uwierzytelnianie oraz narzucanie
+kontroli dostƒôpu w zale≈ºno≈õci od u≈ºytkownika. Pakiet jest
+implementacjƒÖ javowej wersji standardowego szkieletu PAM (Pluggable
+Authentication Module) i obs≈Çuguje autoryzacjƒÖ w oparciu o
+u≈ºytkownik√≥w.
 
-Ten opcjonalny pakiet jest przeznaczony dla Javy 1.3 i 1.3.1; zosta≥
-zintegrowany z Jav± 1.4.
+Ten opcjonalny pakiet jest przeznaczony dla Javy 1.3 i 1.3.1; zosta≈Ç
+zintegrowany z JavƒÖ 1.4.
 
 %prep
 %setup -q -n %{name}%{_ver} -a1
