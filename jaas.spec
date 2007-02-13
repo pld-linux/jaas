@@ -2,7 +2,7 @@
 %define 	_ver		%(echo %{ver} | tr . _)
 
 Summary:	Java(TM) Authentication and Authorization Service
-Summary(pl.UTF-8):   JAAS - usługa uwierzytelniania i autoryzacji dla Javy
+Summary(pl.UTF-8):	JAAS - usługa uwierzytelniania i autoryzacji dla Javy
 Name:		jaas
 Version:	%{ver}
 Release:	0.1
