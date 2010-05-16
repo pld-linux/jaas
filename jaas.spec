@@ -9,10 +9,11 @@ Release:	0.1
 License:	Sun Binary Code License
 Group:		Development/Languages/Java
 Source0:	%{name}-%{_ver}.zip
-Source1:	%{name}-%{_ver}-doc.zip
-URL:		http://java.sun.com/products/jaas/
 NoSource:	0
+Source1:	%{name}-%{_ver}-doc.zip
 NoSource:	1
+URL:		http://java.sun.com/products/jaas/
+BuildRequires:	unzip
 Requires:	jre
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
